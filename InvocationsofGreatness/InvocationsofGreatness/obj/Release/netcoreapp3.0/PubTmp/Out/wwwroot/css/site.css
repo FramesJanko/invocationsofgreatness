@@ -1,0 +1,49 @@
+﻿.startingMenu {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+    .startingMenu li {
+        border: 2px solid black;
+        display: inline;
+    }
+
+#quas {
+    background-color: aqua;
+}
+
+#wex {
+    background-color: deeppink;
+}
+
+#exort {
+    background-color: darkorange;
+}
+
+#intro img {
+    max-width: 400px;
+}
+
+#loginToggle {
+    cursor: pointer;
+}
+
+.popupForm {
+    padding: 5px;
+    border: 2px black inset;
+    display: inline-block;
+}
+
+    .popupForm input {
+        width: 200px;
+    }
+
+    .popupForm label {
+        width: 150px;
+        display: inline-block;
+    }
+
+    .popupForm input[type="checkbox"], .popupForm input[type="submit"] {
+        width: auto;
+    }
