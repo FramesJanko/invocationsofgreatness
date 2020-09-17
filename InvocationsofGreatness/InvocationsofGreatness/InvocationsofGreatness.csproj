@@ -288,6 +288,7 @@
 
   <ItemGroup>
     <PackageReference Include="OdeToCode.UseNodeModules" Version="3.0.0" />
+	<Content Include="node_modules\**" CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
