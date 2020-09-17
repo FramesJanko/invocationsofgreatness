@@ -1,37 +1,91 @@
-﻿.startingMenu {
+﻿body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #0f0a1b, #12191f);
+}
+#title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+    #title h1 {
+        color: deeppink;
+    }
+#intro {
+    height: 75%;
+}
+.startingMenu {
     list-style: none;
-    padding-left: 0;
-    margin-left: 0;
+    height: 75%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
     .startingMenu li {
         border: 2px solid black;
+        padding: 2em 3em;
+        font-size: 18px;
         display: inline;
+        border: 2px solid;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
     }
 
 #quas {
     background-color: aqua;
+    left:0;
 }
-
+#quas:hover {
+    background-color: #109a9a;
+    cursor: pointer;
+}
 #wex {
     background-color: deeppink;
+    top:0;
 }
-
+#wex:hover {
+    background-color: #ba1870;
+    cursor: pointer;
+}
 #exort {
     background-color: darkorange;
+    right:0;
 }
-
+#exort:hover {
+    background-color: #b06407;
+    cursor: pointer;
+}
+#invoke {
+    background-color: ghostwhite;
+    bottom:0;
+}
+#invoke:hover {
+    background-color: #a0a0b2;
+    cursor: pointer;
+}
+#background-invoke {
+    background-image: linear-gradient(to right, #5cedfa, #18dcff, #02c8ff, #53b0ff, #8a94ff, #b37bf6, #dd57de, #ff00b7, #ff1188, #ff4b5b, #ff7833, #ff9e00);;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
 #intro img {
     max-width: 400px;
 }
+.login {
+    position: absolute;
 
+}
 #loginToggle {
     cursor: pointer;
+    color: deeppink;
 }
 
 .popupForm {
-    padding: 5px;
-    border: 2px black inset;
     display: inline-block;
 }
 
@@ -40,10 +94,20 @@
     }
 
     .popupForm label {
-        width: 150px;
+        width: 105px;
         display: inline-block;
+        color: deeppink;
     }
 
     .popupForm input[type="checkbox"], .popupForm input[type="submit"] {
         width: auto;
+    }
+    .popupForm input[type="submit"] {
+        margin-top: 5px;
+    }
+    footer {
+        color: deeppink;
+        position: absolute;
+        bottom:0;
+        right:1%;
     }

@@ -23,8 +23,8 @@ namespace InvocationsofGreatness
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            //app.UseNodeModules();
-         
+            app.UseNodeModules();
+
         }
     }
 }
