@@ -12,20 +12,50 @@
     }
 #intro {
     height: 75%;
+    position: relative;
+    max-height: 30em;
+}
+    #intro img {
+        
+    }
+#invocations {
+    height: 85%;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+    #invoker-no-background {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        max-height: 75%;
+        max-width: 75%;
+    }
+#wex_orb_left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 33%;
+    max-width: 28%;
 }
 .startingMenu {
     list-style: none;
-    height: 75%;
-    width: 50%;
+    height: 15%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    padding: 0px;
 }
-
+    
     .startingMenu li {
         border: 2px solid black;
-        padding: 2em 3em;
+        padding: 1.5em 2.25em;
         font-size: 18px;
         display: inline;
         border: 2px solid;
@@ -73,9 +103,6 @@
     color: transparent;
     font-weight: bold;
 }
-#intro img {
-    max-width: 400px;
-}
 .login {
     position: absolute;
 
@@ -105,9 +132,10 @@
     .popupForm input[type="submit"] {
         margin-top: 5px;
     }
-    footer {
-        color: deeppink;
-        position: absolute;
-        bottom:0;
-        right:1%;
-    }
+
+.footer {
+    width: 100%;
+    color: deeppink;
+    position: relative;
+    text-align: end;
+}

@@ -45,20 +45,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robby\\.nuget\\packages\\": {}
+    "C:\\Users\\rheck\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Robby\\Documents\\GitHub\\invocationsofgreatness\\InvocationsofGreatness\\InvocationsofGreatness\\InvocationsofGreatness.csproj",
+      "projectUniqueName": "C:\\Users\\rheck\\OneDrive\\Documents\\GitHub\\invocationsofgreatness\\InvocationsofGreatness\\InvocationsofGreatness\\InvocationsofGreatness.csproj",
       "projectName": "InvocationsofGreatness",
-      "projectPath": "C:\\Users\\Robby\\Documents\\GitHub\\invocationsofgreatness\\InvocationsofGreatness\\InvocationsofGreatness\\InvocationsofGreatness.csproj",
-      "packagesPath": "C:\\Users\\Robby\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Robby\\Documents\\GitHub\\invocationsofgreatness\\InvocationsofGreatness\\InvocationsofGreatness\\obj\\",
+      "projectPath": "C:\\Users\\rheck\\OneDrive\\Documents\\GitHub\\invocationsofgreatness\\InvocationsofGreatness\\InvocationsofGreatness\\InvocationsofGreatness.csproj",
+      "packagesPath": "C:\\Users\\rheck\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rheck\\OneDrive\\Documents\\GitHub\\invocationsofgreatness\\InvocationsofGreatness\\InvocationsofGreatness\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Robby\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\rheck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -104,14 +109,6 @@
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[3.0.1, 3.0.1]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.0.0, 3.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.0.0, 3.0.0]"
           }
         ],
         "frameworkReferences": {

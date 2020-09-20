@@ -52,3 +52,16 @@ C:\Users\Robby\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\In
 C:\Users\Robby\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\InvocationsofGreatness.pdb
 C:\Users\Robby\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Robby\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\bin\Debug\netcoreapp3.0\InvocationsofGreatness.Views.dll
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\bin\Debug\netcoreapp3.0\InvocationsofGreatness.Views.pdb
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\InvocationsofGreatness.RazorAssemblyInfo.cache
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\InvocationsofGreatness.RazorAssemblyInfo.cs
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\InvocationsofGreatness.TagHelpers.input.cache
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\InvocationsofGreatness.TagHelpers.output.cache
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\InvocationsofGreatness.RazorCoreGenerate.cache
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\Razor\Views\Spells\Index.cshtml.g.cs
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\InvocationsofGreatness.RazorTargetAssemblyInfo.cs
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\InvocationsofGreatness.Views.pdb
+C:\Users\rheck\OneDrive\Documents\GitHub\invocationsofgreatness\InvocationsofGreatness\InvocationsofGreatness\obj\Debug\netcoreapp3.0\Razor\Views\Coldsnap\Index.cshtml.g.cs

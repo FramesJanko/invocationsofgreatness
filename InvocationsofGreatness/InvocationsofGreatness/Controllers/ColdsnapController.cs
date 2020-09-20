@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InvocationsofGreatness.Controllers
 {
-    public class AppController : Controller
+    public class ColdsnapController : Controller
     {
         public IActionResult Index()
         {

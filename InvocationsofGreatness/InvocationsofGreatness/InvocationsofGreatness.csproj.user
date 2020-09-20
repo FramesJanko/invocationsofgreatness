@@ -3,7 +3,7 @@
   <PropertyGroup>
     <NameOfLastUsedPublishProfile>Invocationsofgreatness - Web Deploy</NameOfLastUsedPublishProfile>
     <ShowAllFiles>true</ShowAllFiles>
-    <ActiveDebugProfile>InvocationsofGreatness</ActiveDebugProfile>
+    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

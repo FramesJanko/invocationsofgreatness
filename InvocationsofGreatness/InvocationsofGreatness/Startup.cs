@@ -52,7 +52,7 @@ namespace InvocationsofGreatness
             {
                 cfg.MapRoute("Default",
                     "{controller}/{action}/{id?}",
-                    new { controller = "App", Action = "Index" });
+                    new { controller = "Spells", Action = "Index" });
             });
         }
     }
