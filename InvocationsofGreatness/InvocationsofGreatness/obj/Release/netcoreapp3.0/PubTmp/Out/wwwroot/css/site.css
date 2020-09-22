@@ -40,6 +40,83 @@
     transform: translateY(-50%);
     max-height: 33%;
     max-width: 28%;
+    opacity: 0;
+}
+#quas_orb_left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 33%;
+    max-width: 28%;
+    opacity: 0;
+}
+#exort_orb_left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 33%;
+    max-width: 28%;
+    opacity: 0;
+}
+#wex_orb_top {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 33%;
+    max-width: 28%;
+    opacity: 0;
+}
+
+#quas_orb_top {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 33%;
+    max-width: 28%;
+    opacity: 0;
+}
+
+#exort_orb_top {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 33%;
+    max-width: 28%;
+    opacity: 0;
+}
+#wex_orb_right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 33%;
+    max-width: 28%;
+    opacity: 0;
+}
+
+#quas_orb_right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 33%;
+    max-width: 28%;
+    opacity: 0;
+}
+
+#exort_orb_right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 33%;
+    max-width: 28%;
+    opacity: 0;
 }
 .startingMenu {
     list-style: none;
@@ -53,52 +130,78 @@
     padding: 0px;
 }
     
-    .startingMenu li {
+    .startingMenu li, .startingMenu button {
         border: 2px solid black;
         padding: 1.5em 2.25em;
-        font-size: 18px;
+        
         display: inline;
-        border: 2px solid;
+        
         border-radius: 10px;
         font-weight: bold;
         font-size: 20px;
         position: relative;
     }
+#hidden-form input {
+    position: absolute;
+    width: 40px;
+}
+#invoke-list-item {
+    border: none;
+    padding: 0;
+    
+}
 
 #quas {
     background-color: aqua;
-    left:0;
+    
 }
-#quas:hover {
+#quas-background {
+    background-color: aqua;
+}
+#quas:hover, #quas-background:hover {
     background-color: #109a9a;
     cursor: pointer;
 }
 #wex {
     background-color: deeppink;
-    top:0;
+    
 }
-#wex:hover {
+#wex-background {
+    background-color: deeppink;
+}
+#wex:hover, #wex-background:hover {
     background-color: #ba1870;
     cursor: pointer;
 }
 #exort {
     background-color: darkorange;
-    right:0;
+    border: none;
 }
-#exort:hover {
+#exort-background {
+    background-color: darkorange;
+}
+#exort:hover, #exort-background:hover {
     background-color: #b06407;
     cursor: pointer;
 }
+    #exort-background:hover ~ #exort {
+        background-color: #b06407;
+    }
+
 #invoke {
     background-color: ghostwhite;
-    bottom:0;
+    border: none;
+    
 }
-#invoke:hover {
+#invoke-background{
+    background-color: ghostwhite;
+}
+#invoke:hover, #invoke-background:hover {
     background-color: #a0a0b2;
     cursor: pointer;
 }
 #background-invoke {
-    background-image: linear-gradient(to right, #5cedfa, #18dcff, #02c8ff, #53b0ff, #8a94ff, #b37bf6, #dd57de, #ff00b7, #ff1188, #ff4b5b, #ff7833, #ff9e00);;
+    background-image: linear-gradient(to right, #5cedfa, #18dcff, #02c8ff, #53b0ff, #8a94ff, #b37bf6, #dd57de, #ff00b7, #ff1188, #ff4b5b, #ff7833, #ff9e00);
     -webkit-background-clip: text;
     color: transparent;
     font-weight: bold;
@@ -113,7 +216,7 @@
 }
 
 .popupForm {
-    display: inline-block;
+    display: none;
 }
 
     .popupForm input {
