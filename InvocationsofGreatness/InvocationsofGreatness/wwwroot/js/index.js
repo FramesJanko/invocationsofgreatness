@@ -7,7 +7,7 @@
         $popupForm.toggle();
     });
     
-    let quasOpacity = 1;
+    
     let $wexLeft = $("#wex_orb_left");
     let $exortLeft = $("#exort_orb_left");
     let $quasLeft = $("#quas_orb_left");
@@ -17,6 +17,11 @@
     let $quasRight = $("#quas_orb_right");
     let $wexRight = $("#wex_orb_right");
     let $exortRight = $("#exort_orb_right");
+    let $orbOne = $("#orbOne");
+    let $orbTwo = $("#orbTwo");
+    let $orbThree = $("#orbThree");
+    
+
     $("#quas").click(function() {
         $wexRight.css("opacity", "0");
         $exortRight.css("opacity", "0");
@@ -34,6 +39,12 @@
         $wexLeft.css("opacity", "0");
         $exortLeft.css("opacity", "0");
         $quasLeft.css("opacity", "1");
+        $orbThree.val($("#orbTwo").val());
+        $orbTwo.val($("#orbOne").val());
+        $orbOne.val("1");
+        
+        
+
         //if ($quasLeft.css("opacity") !== "1") {
         //    $wexTop.css("opacity", $wexLeft.css("opacity"));
         //    $exortTop.css("opacity", $exortLeft.css("opacity"));
@@ -85,7 +96,9 @@
         $wexLeft.css("opacity", "1");
         $exortLeft.css("opacity", "0");
         $quasLeft.css("opacity", "0");
-        
+        $orbThree.val($("#orbTwo").val());
+        $orbTwo.val($("#orbOne").val());
+        $orbOne.val("2");
 
         //else if ($wexLeft.css("opacity") === "1") {
         //    $wexRight.css("opacity", "0");
@@ -126,6 +139,10 @@
         $wexLeft.css("opacity", "0");
         $exortLeft.css("opacity", "1");
         $quasLeft.css("opacity", "0");
+        $orbThree.val($("#orbTwo").val());
+        $orbTwo.val($("#orbOne").val());
+        $orbOne.val("3");
+        console.log($orbOne.css("id"));
     });   
 
 

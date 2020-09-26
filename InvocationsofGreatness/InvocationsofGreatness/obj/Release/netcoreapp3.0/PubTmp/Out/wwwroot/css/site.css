@@ -141,9 +141,19 @@
         font-size: 20px;
         position: relative;
     }
-#hidden-form input {
-    position: absolute;
+
+.hidden-form input {
+    position: relative;
     width: 40px;
+}
+#orbOne {
+    display: none;
+}
+#orbTwo {
+    display: none;
+}
+#orbThree {
+    display: none;
 }
 #invoke-list-item {
     border: none;
